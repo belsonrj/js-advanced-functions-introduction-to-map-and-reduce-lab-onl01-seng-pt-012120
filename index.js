@@ -33,3 +33,11 @@ function reduceToTotal(src, startingPoint=0) {
   }
   return total
 }
+
+function reduceToAllTrue(src) {
+  let total = startingPoint
+  for (let i = 0; i < src.length; i++ ) {
+    total = total + src[i]
+  }
+  return total
+}
