@@ -5,3 +5,9 @@ function mapToNegativize(src) {
   }
   return r
 }
+
+function mapToNoChange(src) {
+  let r = []
+  return r
+}
+
