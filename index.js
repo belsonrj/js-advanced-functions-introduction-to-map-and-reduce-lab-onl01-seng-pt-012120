@@ -35,9 +35,15 @@ function reduceToTotal(src, startingPoint=0) {
 }
 
 function reduceToAllTrue(src) {
-  let total = startingPoint
   for (let i = 0; i < src.length; i++ ) {
-    total = total + src[i]
+    if (!src[i]) return false
   }
-  return total
+  return true
+}
+
+function reduceToAllTrue(src) {
+  for (let i = 0; i < src.length; i++ ) {
+    if (!src[i]) return true
+  }
+  return false
 }
