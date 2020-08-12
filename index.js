@@ -10,3 +10,6 @@ function mapToNoChange(src) {
   return src
 }
 
+function mapToDouble(src) {
+  
+}
