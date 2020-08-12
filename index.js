@@ -7,7 +7,6 @@ function mapToNegativize(src) {
 }
 
 function mapToNoChange(src) {
-  let r = []
-  return r
+  return src
 }
 
